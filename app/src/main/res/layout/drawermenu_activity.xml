@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kevin="http://schemas.android.com/apk/res/com.kevinlee.customviewdemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.kevinlee.customviewdemo.customview.drawermenu.DrawerMenu
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        kevin:position="right_top">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon1"
+            android:tag="tag1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon2"
+            android:tag="tag2" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon3"
+            android:tag="tag3" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon4"
+            android:tag="tag4" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon5"
+            android:tag="tag5" />
+
+    </com.kevinlee.customviewdemo.customview.drawermenu.DrawerMenu>
+
+</RelativeLayout>

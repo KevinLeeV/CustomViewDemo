@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // 随机码view
+    <attr name="textColor" format="color" />
+    <attr name="textSize" format="dimension" />
+
+    <declare-styleable name="RandomCode">
+        <attr name="textColor" />
+        <attr name="textSize" />
+    </declare-styleable>
+
+    // 波浪形view
+    <declare-styleable name="WaveView">
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+    <attr name="position">
+        <enum name="left_top" value="0" />
+        <enum name="left_bottom" value="1" />
+        <enum name="right_top" value="2" />
+        <enum name="right_bottom" value="3" />
+    </attr>
+
+    <attr name="padding" format="dimension" />
+
+    <attr name="radius" format="dimension" />
+
+    // 卫星菜单
+    <declare-styleable name="ArcMenu">
+        <attr name="position" />
+        <attr name="radius" />
+    </declare-styleable>
+
+    // 菜单
+    <declare-styleable name="DrawerMenu">
+        <attr name="position" />
+        <attr name="padding" />
+    </declare-styleable>
+
+    // 水平进度条
+    <attr name="progress_text_color" format="color" />
+    <attr name="progress_text_size" format="dimension" />
+    <attr name="progress_reach_color" format="color" />
+    <attr name="progress_reach_height" format="dimension" />
+    <attr name="progress_unreach_color" format="color" />
+    <attr name="progress_unreach_height" format="dimension" />
+    <attr name="progress_text_offset" format="dimension" />
+
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="progress_text_color" />
+        <attr name="progress_text_size" />
+        <attr name="progress_reach_color" />
+        <attr name="progress_reach_height" />
+        <attr name="progress_unreach_color" />
+        <attr name="progress_unreach_height" />
+        <attr name="progress_text_offset" />
+    </declare-styleable>
+
+    // 圆环形进度条
+    <declare-styleable name="RoundProgressBar">
+        <attr name="progress_radius" />
+    </declare-styleable>
+
+
+    // 圆形进度条
+    <attr name="progress_radius" format="dimension" />
+    <attr name="progress_ring_height" format="dimension" />
+    <attr name="progress_color" format="color" />
+    <attr name="progress_ring_offset" format="dimension" />
+    <declare-styleable name="CircleProgressBar">
+        <attr name="progress_radius" />
+        <attr name="progress_ring_height" />
+        <attr name="progress_color" />
+        <attr name="progress_ring_offset" />
+    </declare-styleable>
+
+
+    // 自定义的viewpager指示器
+    <attr name="visible_tab_count" format="integer"/>
+    <attr name="tab_line_style">
+        <enum name="triangle" value="0"/>
+        <enum name="line" value="1"/>
+    </attr>
+    <attr name="subscript_color" format="color"/>
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="visible_tab_count"/>
+        <attr name="tab_line_style"/>
+        <attr name="subscript_color"/>
+    </declare-styleable>
+</resources>
