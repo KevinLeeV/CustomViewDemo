@@ -77,15 +77,36 @@
 
 
     // 自定义的viewpager指示器
-    <attr name="visible_tab_count" format="integer"/>
+    <attr name="visible_tab_count" format="integer" />
     <attr name="tab_line_style">
-        <enum name="triangle" value="0"/>
-        <enum name="line" value="1"/>
+        <enum name="triangle" value="0" />
+        <enum name="line" value="1" />
     </attr>
-    <attr name="subscript_color" format="color"/>
+    <attr name="subscript_color" format="color" />
     <declare-styleable name="ViewPagerIndicator">
-        <attr name="visible_tab_count"/>
-        <attr name="tab_line_style"/>
-        <attr name="subscript_color"/>
+        <attr name="visible_tab_count" />
+        <attr name="tab_line_style" />
+        <attr name="subscript_color" />
     </declare-styleable>
+
+    // 流式布局
+    <attr name="flow_isMultiSelect" format="boolean" />
+    <attr name="flow_background_normal" format="reference" />
+    <attr name="flow_background_selected" format="reference" />
+    <attr name="flow_background" format="reference" />
+    <attr name="flow_textSize" format="dimension" />
+    <attr name="flow_textColor" format="color" />
+    <attr name="flow_textSelectedColor" format="color" />
+    <attr name="flow_padding" format="dimension" />
+    <declare-styleable name="FlowLayout">
+        <attr name="flow_isMultiSelect" />
+        <attr name="flow_background_normal" />
+        <attr name="flow_background_selected" />
+        <attr name="flow_background" />
+        <attr name="flow_textSelectedColor" />
+        <attr name="flow_textSize" />
+        <attr name="flow_textColor" />
+        <attr name="flow_padding" />
+    </declare-styleable>
+
 </resources>
